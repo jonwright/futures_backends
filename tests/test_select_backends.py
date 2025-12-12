@@ -23,7 +23,7 @@ def worker_sum_axis(arr):
 
 # --- Test Suite ---
 
-class TestSafeExecutor(unittest.TestCase):
+class TestSelectExecutor(unittest.TestCase):
     
     def setUp(self):
         futures_backends.reset_defaults()

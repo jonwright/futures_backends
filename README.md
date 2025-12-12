@@ -20,6 +20,9 @@ So far, we have:
  - 'fork' : concurrent.futures.ProcessPoolExecutor with mp_context = 'fork'
  - 'forkserver' : concurrent.futures.ProcessPoolExecutor with mp_context = 'forkserver'
  - 'spawn' : concurrent.futures.ProcessPoolExecutor with mp_context = 'spawn'
+ - 'interpreters' : concurrent.futures.InterpreterPoolExecutor
+
+
 
 In the future we would like to add others like pyslurmutils and mpi4py, etc.
 

@@ -20,3 +20,6 @@ license-files = ["LICENSE"]
 
 [project.urls]
 Homepage = "https://github.com/jonwright/futures_backends"
+
+[tool.pytest]
+testpaths = ["tests"] 
